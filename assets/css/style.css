@@ -1,0 +1,231 @@
+body {
+  font-family: TS-Reg, sans-serif;
+}
+
+.container {
+  width: 1098px;
+  margin: 0 auto;
+  border: solid 2px black;
+  background-color: white;
+}
+
+/* -------- HEADER ------- */
+header {
+  height: 50px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  width: 200px;
+}
+
+.bandeau {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.bandeau div:not(:nth-child(4)) {
+  display: flex;
+  gap: 5px;
+  padding: 15px 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+.bandeau div:nth-child(4) {
+  padding: 15px 10px;
+  border-radius: 50px;
+  background-color: black;
+}
+.bandeau div:hover:not(:nth-child(4)) {
+  background-color: #f2f2f2;
+}
+.bandeau div:hover:nth-child(4) {
+  background-color: grey;
+}
+
+.bandeau a {
+  text-decoration: none;
+  color: black;
+}
+
+.bandeau div:nth-of-type(4) a {
+  color: white;
+}
+
+.connectYs a {
+  color: white;
+  text-decoration: none;
+}
+/* ----------------------- */
+
+/* --------- MAIN -------- */
+.general {
+  margin-top: 30px;
+}
+h1 {
+  font-size: 54px;
+  color: black;
+  font-weight: bolder;
+  line-height: 70px;
+  font-family: TS-Med, sans-serif;
+}
+.general h1 span {
+  color: #ff5d5d;
+}
+
+.general > div > p {
+  color: #333333;
+}
+
+.general nav {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.discover div {
+  flex: 1;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 175px;
+  height: 65px;
+  padding: 10px 20px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discover div:hover {
+  background-color: black;
+  color: white;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.imgs {
+  display: flex;
+  gap: 2px;
+  line-height: 0px;
+}
+
+.first-img img {
+  width: 615px;
+  display: block;
+}
+.first-img img:hover {
+  opacity: 0.7;
+}
+.first-img div {
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  width: 120px;
+}
+
+.first-img div:hover {
+  background-color: grey;
+}
+
+.not-first {
+  width: 480px;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+}
+.not-first img {
+  height: 214px;
+  object-fit: cover;
+}
+.not-first img:hover {
+  opacity: 0.7;
+}
+
+.loc {
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+.loc a::after {
+  content: " \203A ";
+}
+
+.loc a {
+  text-decoration: none;
+  color: grey;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+  font-family: TS-Med, sans-serif;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.map {
+  display: flex;
+  gap: 130px;
+}
+.map div p {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.travel img {
+  width: 430px;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.tr-orange {
+  background-color: #ff5d5d;
+  padding: 30px;
+  border-radius: 30px 30px 0px 0px;
+}
+.tr-orange div div {
+  margin-top: 20px;
+  background-color: black;
+  box-sizing: border-box;
+  width: 160px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+}
+
+.tr-orange div div:hover {
+  background-color: #4c1c1c;
+}
+
+.place-container {
+  width: 260px;
+}
+/* ----------------------- */
+
+/* -------- FOOTER ------- */
+
+/* ----------------------- */
