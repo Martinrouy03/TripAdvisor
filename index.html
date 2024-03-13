@@ -13,29 +13,31 @@
     ></script>
   </head>
   <body>
-    <header class="container">
-      <img src="./assets/imgs/Tripadvisor_logo.svg" alt="Tripadvisor_logo" />
-      <nav class="bandeau">
-        <div>
-          <i class="fa-solid fa-pen"></i>
-          <a href="">Avis</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-heart"></i>
-          <a href="">Voyages</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-bell"></i>
-          <a href="">Alertes</a>
-        </div>
-        <div class="connectYs">
-          <a href="">Connectez-vous</a>
-        </div>
-        <div>
-          <i class="fa-solid fa-cart-shopping"></i>
-          <a href="">Panier</a>
-        </div>
-      </nav>
+    <header>
+      <div class="container">
+        <img src="./assets/imgs/Tripadvisor_logo.svg" alt="Tripadvisor_logo" />
+        <nav class="bandeau">
+          <div>
+            <i class="fa-solid fa-pen"></i>
+            <a href="">Avis</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-heart"></i>
+            <a href="">Voyages</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-bell"></i>
+            <a href="">Alertes</a>
+          </div>
+          <div class="connectYs">
+            <a href="">Connectez-vous</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="">Panier</a>
+          </div>
+        </nav>
+      </div>
     </header>
 
     <main class="container">
@@ -92,8 +94,8 @@
           <i class="fa-solid fa-angle-down"></i>
         </div>
       </section>
-      <section class="map">
-        <div>
+      <section class="map-container">
+        <div class="left-bloc">
           <h2>La Ville Lumière éblouit la ville</h2>
           <p>
             Aucun autre endroit au monde ne fait autant rêver que Paris. La
@@ -105,97 +107,218 @@
             vous approprier Paris.
           </p>
         </div>
-        <div class="travel">
-          <div class="tr-orange">
-            <div>
-              <h2>Paris : commencez à organiser !</h2>
-              <p>
-                Créez un voyage pour enregistrer et organiser toutes vos idées
-                et les visualiser sur une carte.
-              </p>
-              <div>Créez un voyage</div>
-            </div>
+        <div class="right-bloc">
+          <div class="top-bloc">
+            <h2>Paris : commencez à organiser !</h2>
+            <p>
+              Créez un voyage pour enregistrer et organiser toutes vos idées et
+              les visualiser sur une carte.
+            </p>
+            <div>Créez un voyage</div>
           </div>
-          <img src="./assets/imgs/image_trips_card_medium.png" alt="" />
+          <div class="bottom-bloc">
+            <img src="./assets/imgs/image_trips_card_medium.png" alt="" />
+          </div>
         </div>
       </section>
       <section class="mustSee">
         <h2>Paris: Les immanquables</h2>
-        <div class="divert">
-          <div class="text">
+        <div class="mustSee-container">
+          <div class="mustSee-left">
             <h3>Se divertir</h3>
             <p>
               Des lieux à voir, des rues à explorer et des expériences
               emblématiques à Paris.
             </p>
-            <a href="">Tout afficher</a>
+            <button>Tout afficher</button>
           </div>
-          <div class="places">
-            <div class="place-container">
-              <div class="photo">
-                <img src="./assets/imgs/eiffeltoren.jpg" alt="Tour Eiffel" />
-              </div>
+          <div class="mustSee-right">
+            <div class="carrousel">
+              <img src="./assets/imgs/eiffeltoren.jpg" alt="Tour Eiffel" />
               <h4>Tour Eiffel</h4>
-              <div class="rating"></div>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt=""
+                />
+              </div>
               <p>
                 Tours et plateformes d'observation, Monuments & Points d'intérêt
               </p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
-            <div class="place-container">
-              <div class="photo">
+            <div class="carrousel">
+              <div>
                 <img
                   src="./assets/imgs/arc-de-triomphe-at-night.jpg"
                   alt="Arc de Triomphe"
                 />
               </div>
               <h4>Arc de Triomphe</h4>
-              <div class="rating"></div>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt=""
+                />
+              </div>
               <p>Bâtiments architecturaux, Sites historiques</p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
-            <div class="place-container">
-              <div class="photo">
+            <div class="carrousel">
+              <div>
                 <img src="./assets/imgs/louvre.jpg" alt="Musée du Louvre" />
               </div>
               <h4>Musée du Louvre</h4>
-              <div class="rating"></div>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt=""
+                />
+              </div>
               <p>Bâtiments architecturaux, Musées d'art</p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
           </div>
-          <div class="divert">
-            <h3></h3>
-            <p></p>
-            <a href=""></a>
+        </div>
+        <div class="mustSee-container">
+          <div class="mustSee-left">
+            <h3>Se restaurer</h3>
+            <p>Bistrots et bars typiques, et plus encore à Paris.</p>
+            <button>Tout afficher</button>
           </div>
-          <div class="places">
-            <div class="place">
-              <div class="photo">
-                <img src="" alt="" />
+          <div class="mustSee-right">
+            <div class="carrousel">
+              <img src="./assets/imgs/meal1.jpg" alt="plat1" />
+              <h4>Frenchie</h4>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt=""
+                />
               </div>
-              <h4></h4>
-              <div class="rating"></div>
-              <p></p>
+              <p>€€€€ · Française, Végétariens bienvenus, Plats sans gluten</p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
-            <div class="place">
-              <div class="photo">
-                <img src="" alt="" />
+            <div class="carrousel">
+              <!-- <div> -->
+              <img src="./assets/imgs/meal2.jpg" alt="plat2" />
+              <!-- </div> -->
+              <h4>114 Faubourg</h4>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt=""
+                />
               </div>
-              <h4></h4>
-              <div class="rating"></div>
-              <p></p>
+              <p>€€ · Française, Européenne, Végétariens bienvenus</p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
-            <div class="place">
-              <div class="photo">
-                <img src="" alt="" />
+            <div class="carrousel">
+              <!-- <div> -->
+              <img src="./assets/imgs/meal3.jpg" alt="Musée du Louvre" />
+              <!-- </div> -->
+              <h4>Verjus</h4>
+              <div class="rating">
+                <img
+                  src="./assets/imgs/Screenshot 2024-03-13 153502.png"
+                  alt="plat3"
+                />
               </div>
-              <h4></h4>
-              <div class="rating"></div>
-              <p></p>
+              <p>€€€ · Française, Européenne, Moderne</p>
+              <div class="heart">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="logoTrip">
+                <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="guide"></section>
+      <section>
+        <h2>Guide de voyageurs</h2>
+        <div class="guide-container">
+          <div class="carrousel2">
+            <div>
+              <img src="./assets/imgs/visit1.jpg" alt="" />
+            </div>
+            <h4>Best summer things to do in Paris | Eatwith</h4>
+            <p>36 articles</p>
+            <div id="credits">
+              <img src="./assets/imgs/forks-icon.jpg" alt="forks-icon" />
+              <p>Par <span>Eatwith</span></p>
+            </div>
+          </div>
+          <div class="carrousel2">
+            <div>
+              <img src="./assets/imgs/visit2.jpg" alt="" />
+            </div>
+            <h4>Les 10 monuments et musées de Paris à faire</h4>
+            <p>10 articles</p>
+            <div id="credits">
+              <img src="./assets/imgs/topito-com.jpg" alt="topito-icon" />
+              <p>Par <span>Topito</span></p>
+            </div>
+          </div>
+          <div class="carrousel2">
+            <div>
+              <img src="./assets/imgs/visit3.jpg" alt="" />
+            </div>
+            <h4>Best summer things to do in Paris | Eatwith</h4>
+            <p>36 articles</p>
+            <div id="credits">
+              <img src="./assets/imgs/topito-com.jpg" alt="topito-icon" />
+              <p>Par <span>Topito</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="finalCredits">
+        <img src="./assets/imgs/favicon-tripadvisor.svg" alt="" />
+        <p>
+          Made at
+          <span
+            ><a href="https://lereacteur.io" target="_blank"
+              >Le Reacteur</a
+            ></span
+          >
+          by
+          <span
+            ><a
+              href="https://github.com/Martinrouy03?tab=repositories"
+              target="_blank"
+              >Martin Rouy</a
+            ></span
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
