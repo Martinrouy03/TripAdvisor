@@ -281,13 +281,20 @@ h4 {
   flex: 1;
   height: 100%;
   display: flex;
+  gap: 20px;
   justify-content: space-between;
+  overflow: hidden;
+  overflow-x: scroll;
   /* background-color: lightblue; */
 }
+
+/* .mustSee-right::-webkit-scrollbar {
+  display: none;
+} */
 .carrousel {
   width: 250px;
   height: 100%;
-  /* font-weight: ; */
+  flex-shrink: 0;
 }
 .carrousel img {
   width: 100%;
