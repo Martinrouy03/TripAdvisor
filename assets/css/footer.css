@@ -1,0 +1,31 @@
+/* -------- FOOTER ------- */
+footer {
+  background-color: #faf1ed;
+  height: 155px;
+  font-size: 14px;
+  font-family: TS-Med, sans-serif;
+}
+.finalCredits {
+  /* border: solid 1px red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer img {
+  width: 45px;
+  object-fit: contain;
+}
+footer img:hover {
+  transform: rotate(180deg);
+}
+
+footer span {
+  font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+/* ----------------------- */

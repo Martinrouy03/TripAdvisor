@@ -1,0 +1,64 @@
+/* --------- MAIN -------- */
+.general {
+  margin-top: 30px;
+}
+h1 {
+  font-size: 54px;
+  color: black;
+  font-weight: bolder;
+  line-height: 70px;
+  font-family: TS-Med, sans-serif;
+}
+.general h1 span {
+  color: #ff5d5d;
+}
+
+.general > div > p {
+  color: #333333;
+}
+
+.discover {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.discover div {
+  /* flex: 1; */
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 173px;
+  height: 65px;
+  padding: 10px 20px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.discover div:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 1185px) and (min-width: 770px) {
+  .discover {
+    flex-wrap: wrap;
+  }
+  .discover div {
+    width: calc(1055px / 4);
+    max-width: calc(100% / 4 - 10px);
+  }
+}
+
+@media (max-width: 770px) {
+  .discover {
+    overflow-x: scroll;
+  }
+  .discover::-webkit-scrollbar {
+    display: none;
+  }
+}

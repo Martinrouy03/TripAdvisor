@@ -1,0 +1,77 @@
+/* -------- HEADER ------- */
+header {
+  height: 60px;
+  border-bottom: solid 1px black;
+  position: sticky;
+  top: 0px;
+  /* height: 100%; */
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+header img {
+  width: 200px;
+}
+
+.bandeau {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.bandeau div:not(:nth-child(4)) {
+  display: flex;
+  gap: 5px;
+  padding: 15px 10px;
+  border-radius: 50px;
+  background-color: white;
+}
+.bandeau div:nth-child(4) {
+  padding: 15px 10px;
+  border-radius: 50px;
+  background-color: black;
+}
+.bandeau div:hover:not(:nth-child(4)) {
+  background-color: #f2f2f2;
+}
+.bandeau div:hover:nth-child(4) {
+  background-color: grey;
+}
+
+.bandeau a {
+  text-decoration: none;
+  color: black;
+}
+
+.bandeau div:nth-of-type(4) a {
+  color: white;
+}
+
+.connectYs a {
+  color: white;
+  text-decoration: none;
+}
+/* ----------------------- */
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+  .link a {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .bandeau > div:not(:last-child) {
+    display: none;
+  }
+}
