@@ -1,9 +1,24 @@
-/* .contactForm {
+.contactForm {
+  position: fixed;
   width: 100vw;
   height: 100vh;
-  opacity: 0.8;
-} */
+  background-color: gray;
+  opacity: 0.3;
+  overflow: hidden;
+}
 
-color-red {
+form {
+  display: none;
+  /* position: absolute; */
+  top: 200px;
+  width: 400px;
+  height: 500px;
+  left: calc(50vw - 200px);
+  background-color: white;
+  border-radius: 20px;
+  position: fixed;
+  z-index: 10;
+}
+.color-red {
   background-color: red;
 }
