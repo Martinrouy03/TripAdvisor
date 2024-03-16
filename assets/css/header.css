@@ -6,6 +6,10 @@ header {
   top: 0px;
   /* height: 100%; */
 }
+
+.container > i {
+  display: none;
+}
 header div {
   display: flex;
   justify-content: space-between;
@@ -58,6 +62,8 @@ header img {
 }
 /* ----------------------- */
 
+/* RESPONSIVE */
+
 @media (max-width: 1024px) {
   .container {
     width: 100%;
@@ -73,5 +79,8 @@ header img {
   }
   .bandeau > div:not(:last-child) {
     display: none;
+  }
+  .container i {
+    display: inherit;
   }
 }

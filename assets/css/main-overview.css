@@ -15,7 +15,6 @@ section {
 }
 .imgs-left img {
   width: 100%;
-  /* height: 100%; */
   object-fit: cover;
 }
 .imgs-left img:hover {
@@ -166,7 +165,6 @@ h4 {
     padding: 30px;
     flex: 1;
     border-radius: 30px 0px 0px 30px;
-    /* height: 270px; */
   }
   .top-bloc div {
     margin-top: 20px;
@@ -178,7 +176,6 @@ h4 {
     color: white;
   }
   .bottom-bloc {
-    /* height: 200px; */
     flex: 1;
     height: auto;
   }
@@ -206,7 +203,6 @@ h4 {
     padding: 30px;
     flex: 1;
     border-radius: 30px 30px 0px 0px;
-    /* height: 270px; */
   }
   .top-bloc div {
     margin-top: 20px;
@@ -218,7 +214,6 @@ h4 {
     color: white;
   }
   .bottom-bloc {
-    /* height: 200px; */
     flex: 1;
     height: auto;
   }
@@ -330,7 +325,6 @@ h4 {
 .guide-container {
   height: 350px;
   width: 100%;
-  /* border: solid 1px red; */
   display: flex;
   gap: 25px;
 }
@@ -338,6 +332,9 @@ h4 {
   flex: 1;
   width: 324px;
   height: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px black;
   /* background-color: aqua; */
 }
 .carrousel2 h4 {
@@ -348,6 +345,10 @@ h4 {
   width: 100%;
   height: 215px;
   object-fit: cover;
+  border-radius: 10px;
+}
+.carrousel2 img:first-of-type:hover {
+  opacity: 0.7;
 }
 #credits {
   margin-top: 10px;

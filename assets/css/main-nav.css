@@ -27,10 +27,9 @@ h1 {
 }
 
 .discover div {
-  /* flex: 1; */
   box-sizing: border-box;
   border-radius: 20px;
-  width: 173px;
+  width: 172px;
   height: 65px;
   padding: 10px 20px;
   border: solid 1px black;
@@ -49,8 +48,9 @@ h1 {
     flex-wrap: wrap;
   }
   .discover div {
-    width: calc(1055px / 4);
-    max-width: calc(100% / 4 - 10px);
+    /* width: calc(1055px / 4); */
+    width: calc((100% - 36px) / 4);
+    /* max-width: calc(100% / 4 - 10px); */
   }
 }
 
