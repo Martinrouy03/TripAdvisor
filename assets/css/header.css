@@ -35,7 +35,8 @@ header img {
   border-radius: 50px;
   background-color: white;
 }
-.bandeau div:nth-child(4) {
+/* .bandeau div:nth-child(4) { */
+.connectYs {
   padding: 15px 10px;
   border-radius: 50px;
   background-color: black;
